@@ -1,5 +1,5 @@
 import requests
-import csv
+import links.csv
 
 def test_links(file_path, output_path):
     results = []
