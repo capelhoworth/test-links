@@ -1,29 +1,52 @@
 import re
 import csv
 
-def extract_links(input_file, output_csv):
+def extract_links(input_files, output_csv):
     urls = []
-
-    # Read the file content
-    with open(input_file, 'r') as file:
-        content = file.read()
-
-    # Use regex to find all href links
-    matches = re.findall(r'href="(https?://[^"]+)"', content)
-    urls.extend(matches)
-
-    # Write the URLs to a CSV file
+   
+    # First time writing to CSV - create with header
     with open(output_csv, 'w', newline='') as out_file:
         writer = csv.writer(out_file)
-        writer.writerow(['URL'])  # Add header
-        for url in urls:
-            writer.writerow([url])
+        writer.writerow(['URL'])
+   
+    # Process each input file
+    for input_file in input_files:
+        try:
+            # Read the file content
+            with open(input_file.strip(), 'r') as file:
+                content = file.read()
+                print(f"Reading file: {input_file}")
+                print(f"First 200 characters of content: {content[:200]}")  # Debug line
+               
+            # Use regex to find all href links
+            matches = re.findall(r'href="(https?://[^"]+)"', content)
+            print(f"Number of matches found: {len(matches)}")  # Debug line
+            if len(matches) == 0:
+                # Try printing a few href examples if they exist
+                print("Looking for any href patterns in the content:")
+                href_examples = re.findall(r'href="[^"]+"', content)
+                print(f"Sample hrefs found (up to 3): {href_examples[:3]}")  # Debug line
+            
+            urls.extend(matches)
+           
+            # Append the URLs to the CSV file
+            with open(output_csv, 'a', newline='') as out_file:
+                writer = csv.writer(out_file)
+                for url in matches:
+                    writer.writerow([url])
+                   
+            print(f"Extracted {len(matches)} URLs from {input_file}")
+            print("-" * 50)  # Separator line
+           
+        except Exception as e:
+            print(f"Error processing {input_file}: {str(e)}")
+   
+    print(f"Total URLs extracted: {len(urls)}")
 
-    print(f"Extracted {len(urls)} URLs and saved them to {output_csv}")
+# Read the list of files
+with open('wf_files.txt', 'r') as file_list:
+    input_files = file_list.readlines()
+    print(f"Number of files to process: {len(input_files)}")  # Debug line
 
-# Specify the input and output files
-input_file = 'code_file.txt'  # Replace with your input file name
-output_csv = 'links.csv'      # Output CSV file for the URLs
-
-# Run the extraction function
-extract_links(input_file, output_csv)
+output_csv = 'links.csv'
+extract_links(input_files, output_csv)
