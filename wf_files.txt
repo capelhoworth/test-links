@@ -970,4 +970,3 @@ C:/dev/ColdFusion2021/cfusion/wwwroot/WebFIRE/web/usersfactor/images/overlay.png
 C:/dev/ColdFusion2021/cfusion/wwwroot/WebFIRE/web/usersfactor/index.cfm
 C:/dev/ColdFusion2021/cfusion/wwwroot/WebFIRE/web/usersfactor/ud_ef_detail.cfm
 C:/dev/ColdFusion2021/cfusion/wwwroot/WebFIRE/web/usersfactor/udresults.cfm
-C:/dev/ColdFusion2021/cfusion/wwwroot/WebFIRE/
