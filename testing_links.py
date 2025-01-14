@@ -1,37 +1,57 @@
 import requests
 import csv
 
-def test_links(input_csv, output_csv):
-    results = []
+def test_links(input_csv, working_csv, error_csv):
+    working_results = []
+    error_results = []
     
-    # Open the CSV file and read the links
+    # Open the links.csv and read the links
     with open(input_csv, 'r') as file:
         reader = csv.reader(file)
-        header = next(reader)  # Skip the header row, if present
+        header = next(reader) 
         
         for row in reader:
             if row:  # Ensure the row isn't empty
                 url = row[1].strip()
-                print(row[1])
+                print(f"Testing: {url}")
                 try:
                     # Test the link
                     response = requests.head(url, allow_redirects=True, timeout=5)
                     print(response)
-                    results.append((url, response.status_code, response.url))
+
+                    if response.status_code == 200:
+                        working_results.append((url, str(response.status_code), response.url))
+                    else:
+                        error_results.append((url, str(response.status_code), response.url))
+
                 except requests.exceptions.RequestException as e:
-                    results.append((url, 'Error', str(e)))
+                    error_msg = str(e).replace('"', '').replace("'", "")
+                    error_results.append((url, 'Error', error_msg))
+                    
 
-    # Write the results to a new CSV file
-    with open(output_csv, 'w', newline='') as out_file:
+    # Write the working results into working-links.csv
+    with open(working_csv, 'w', newline='') as out_file:
         writer = csv.writer(out_file)
-        # writer.writerow(['Original URL', 'Status Code', 'Final URL/Message'])  # Add header row
-        writer.writerows(results)
+        writer.writerow(('URL', 'Status Code', 'Final URL/Error Message'))
+        writer.writerows(working_results)
 
-# Define the input and output file paths
-input_csv = 'links.csv'  # Your input CSV file
-output_csv = 'output.csv'  # File to save the results
+    # Write the error results into error-links.csv
+    with open(error_csv, 'w', newline='') as out_file:
+        writer = csv.writer(out_file)
+        writer.writerow(('URL', 'Status Code', 'Final URL/Error Message'))
+        for result in error_results:
+            writer.writerow((
+                result[0],
+                result[1],
+                result[2]
+            ))
+
+# Define input and output file paths
+input_csv = 'links.csv'
+working_csv = 'working-links.csv'
+error_csv = 'error-links.csv'
 
 # Run the function
-test_links(input_csv, output_csv)
-
-print(f"Results have been saved to {output_csv}")
+test_links(input_csv, working_csv, error_csv)
+print(f"Working links have been saved to {working_csv}")
+print(f"Error links have been saved to {error_csv}")
