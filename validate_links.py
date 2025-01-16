@@ -2,7 +2,7 @@ import requests
 import csv
 import os
 
-def test_links(input_csv, working_csv, error_csv):
+def validate_links(input_csv, working_csv, error_csv):
     working_results = []
     error_results = []
 
@@ -59,6 +59,6 @@ working_csv = 'working-links.csv'
 error_csv = 'error-links.csv'
 
 # Run the function
-test_links(input_csv, working_csv, error_csv)
+validate_links(input_csv, working_csv, error_csv)
 print(f"Working links have been saved to {working_csv}")
 print(f"Error links have been saved to {error_csv}")
