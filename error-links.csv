@@ -46,25 +46,16 @@ https://#CGI.SERVER_NAME#/WebFire/FIRE/view/dspERTDocumentDetailsBySubmissionID.
 https://cfpub.epa.gov/webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID= (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://#CGI.SERVER_NAME#/WebFire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=,Error,Invalid URL https://#CGI.SERVER_NAME#/WebFire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=: No host supplied
 https://ofmpub.epa.gov/sccwebservices/v1/SCC?format=CSV&sortFacet=1&filename=SCCDownload,500,https://sor-scc-api.epa.gov/sccwebservices/v1/SCC?format=CSV&sortFacet=1&filename=SCCDownload
-https://ofmpub1.rtpnc.epa.gov:4443/sccwebservices/v1/SCC?format=CSV&filename=SCCDownload,Error,"HTTPSConnectionPool(host=ofmpub1.rtpnc.epa.gov, port=4443): Max retries exceeded with url: /sccwebservices/v1/SCC?format=CSV&filename=SCCDownload (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D584620>: Failed to resolve ofmpub1.rtpnc.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://ofmpub1.rtpnc.epa.gov:4443/sccwebservices/v1/SCC?format=CSV&filename=SCCDownload,Error,"HTTPSConnectionPool(host=ofmpub1.rtpnc.epa.gov, port=4443): Max retries exceeded with url: /sccwebservices/v1/SCC?format=CSV&filename=SCCDownload (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D04404FF50>: Failed to resolve ofmpub1.rtpnc.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D586390>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://github.com/twbs/bootstrap/blob/master/LICENSE),404,https://github.com/twbs/bootstrap/blob/main/LICENSE)
-https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css,404,https://github.com/h5bp/html5-boilerplate/blob/main/src/css/main.css
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D587E60>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://www.prototypejs.org/,Error,"HTTPSConnectionPool(host=www.prototypejs.org, port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.prototypejs.org. (_ssl.c:1000))))"
-https://datatables.net/tn/,404,https://datatables.net/tn/
 https://www.epa.gov/aboutepa/greenversations,404,https://www.epa.gov/home/greenversations
 https://developer.epa.gov/category/apps/,404,https://www.epa.gov/developers/category/apps/
 https://developer.epa.gov/category/widgets/,404,https://www.epa.gov/developers/category/widgets/
 https://twitter.com/epa,403,https://twitter.com/epa
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A5EE0>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif,404,https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/epahome/quickfinder.htm,404,https://www.epa.gov/epahome/quickfinder.htm
 https://www.epa.gov/search.html,404,https://www.epa.gov/search.html
@@ -74,20 +65,15 @@ https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://cfpub.epa.gov/webfire/,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/ (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5CD4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
+https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001D044088290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
 https://ogp.me/ns#,404,https://ogp.me/ns/
 https://rdfs.org/sioc/ns#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/ns (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
 https://rdfs.org/sioc/types#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/types (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
-https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A6BA0>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
-https://www.epa.gov/sites/production/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css,403,https://www.epa.gov/sites/default/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css
-https://www.epa.gov/sites/production/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css,403,https://www.epa.gov/sites/default/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css
+https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440897C0>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsreleases/search/rss,404,https://www.epa.gov/newsreleases/search/rss
 https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters,410,https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://bugs.jquery.com/ticket/9413),404,https://bugs.jquery.com/ticket/9413)
-https://www.robertpenner.com/easing),Error,"HTTPSConnectionPool(host=www.robertpenner.com, port=443): Max retries exceeded with url: /easing) (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.robertpenner.com. (_ssl.c:1000))))"
 https://#cgi.server_name#/webfireadmin/factorModule/EF_FACTOR_Outliers.cfm,Error,Invalid URL https://#cgi.server_name#/webfireadmin/factorModule/EF_FACTOR_Outliers.cfm: No host supplied
 https://#cgi.server_name#/webfireadmin/factorModule/Combined_Auto_TTest.cfm,Error,Invalid URL https://#cgi.server_name#/webfireadmin/factorModule/Combined_Auto_TTest.cfm: No host supplied
 https://#cgi.server_name#/webfireadmin/factorModule/CSV_DATA_ONE_NEW.cfm,Error,Invalid URL https://#cgi.server_name#/webfireadmin/factorModule/CSV_DATA_ONE_NEW.cfm: No host supplied
@@ -96,21 +82,13 @@ https://#cgi.server_name#/webfire/reports/bulk-csv-download.cfm?docbulk=1,Error,
 https://#cgi.server_name#/webfire/reports/eReportBulkdownload.cfm,Error,Invalid URL https://#cgi.server_name#/webfire/reports/eReportBulkdownload.cfm: No host supplied
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
-https://webbook.nist.gov/chemistry/,Error,"HTTPSConnectionPool(host=webbook.nist.gov, port=443): Read timed out. (read timeout=5)"
-https://webbook.nist.gov/chemistry/,Error,"HTTPSConnectionPool(host=webbook.nist.gov, port=443): Read timed out. (read timeout=5)"
 https://www.epa.gov/ttn/chief/eiinformation.html,404,https://www.epa.gov/ttn/chief/eiinformation.html
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
-https://www.epa.gov/epafiles/js/third-party/jquery.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.js
 https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
-https://www.epa.gov/epafiles/s/epa.css,404,https://www.epa.gov/epafiles/s/epa.css
-https://www.epa.gov/epafiles/s/ie.css,404,https://www.epa.gov/epafiles/s/ie.css
-https://www.epa.gov/epafiles/s/print.css,404,https://www.epa.gov/epafiles/s/print.css
-https://www.epa.gov/epafiles/js/epa-core.js,404,https://www.epa.gov/epafiles/js/epa-core.js
-https://www.epa.gov/epafiles/images/logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/logo_epaseal.gif
-https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D557890>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D04404F860>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
@@ -123,22 +101,18 @@ https://www.epa.gov/ttn/chief/efpac/abefpac.html,404,https://www.epa.gov/ttn/chi
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://www.epa.gov/ttn/chief/efpac/esttools.html,404,https://www.epa.gov/ttn/chief/efpac/esttools.html
 https://www.epa.gov/ttn/chief/database/search.html,404,https://www.epa.gov/ttn/chief/database/search.html
-https://webbook.nist.gov/chemistry/,Error,"HTTPSConnectionPool(host=webbook.nist.gov, port=443): Read timed out. (read timeout=5)"
 https://www.epa.gov/aboutepa/greenversations,404,https://www.epa.gov/home/greenversations
 https://developer.epa.gov/category/apps/,404,https://www.epa.gov/developers/category/apps/
 https://developer.epa.gov/category/widgets/,404,https://www.epa.gov/developers/category/widgets/
 https://twitter.com/epa,403,https://twitter.com/epa
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://cfpub.epa.gov/webfire/,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/ (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
@@ -146,429 +120,218 @@ https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://cdx.epa.gov/cdx/login,404,https://cdx.epa.gov/cdx/login
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://www.epa.gov/ttn/chief/le/index.html,404,https://www.epa.gov/ttn/chief/le/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://www.epa.gov/ttn/chief/ap42/ap42supp.html,404,https://www.epa.gov/ttn/chief/ap42/ap42supp.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://www.epa.gov/ttn/chief/le/index.html,404,https://www.epa.gov/ttn/chief/le/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://www.epa.gov/ttn/chief/ap42/ap42supp.html,404,https://www.epa.gov/ttn/chief/ap42/ap42supp.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);,404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
 https://www.epa.gov/ttn/chief/efpac/index.html,404,https://www.epa.gov/ttn/chief/efpac/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
 https://www.icra.org/ratingsv02.html,525,https://www.icra.org/ratingsv02.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/epafiles_logo_epaseal.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_topepa.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endtop.gif
-https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif,404,https://www.epa.gov/epafiles/images/epafiles_ban_endbottom.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://search.epa.gov/s97is.vts,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /s97is.vts (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/searchcode.html,404,https://www.epa.gov/epafiles/searchcode.html
 https://www.epa.gov/ttn/chief/sidebar.txt,404,https://www.epa.gov/ttn/chief/sidebar.txt
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/cgi-bin/epaprintonly.cgi,404,https://www.epa.gov/cgi-bin/epaprintonly.cgi
 https://www.epa.gov/epahome/search.html,404,https://www.epa.gov/epahome/search.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/epafiles/sidebarcode.html,404,https://www.epa.gov/epafiles/sidebarcode.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
-https://www.epa.gov/epafiles/images/epafiles_misc_space.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_space.gif
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
-https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_dot_dkblue.gif
 https://www.epa.gov/ttn/chief/comments.html,404,https://www.epa.gov/ttn/chief/comments.html
-https://www.epa.gov/epafiles/scripts/dateurl.js,404,https://www.epa.gov/epafiles/scripts/dateurl.js
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);,404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif),404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif)
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);,404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);,404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif);
-https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif),404,https://www.epa.gov/epafiles/images/epafiles_misc_bg.gif)
 https://www.epa.gov/ttn/chief/ert/index.html,404,https://www.epa.gov/ttn/chief/ert/index.html
 https://www.epa.gov/ttn/chief/ert/index.html,404,https://www.epa.gov/ttn/chief/ert/index.html
 https://www.epa.gov/ttn/chief/ert/ert_info.html.,404,https://www.epa.gov/ttn/chief/ert/ert_info.html.
 https://www.epa.gov/ttnchie1/ert/index.html,404,https://www.epa.gov/ttnchie1/ert/index.html
 https://www.epa.gov/ttnchie1/ert/index.html,404,https://www.epa.gov/ttnchie1/ert/index.html
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
 https:////www.epa.gov/ttn/chief/ert/index.html.,Error,Invalid URL https:////www.epa.gov/ttn/chief/ert/index.html.: No host supplied
 https://www.epa.gov/epahome/exitepa.htm,404,https://www.epa.gov/epahome/exitepa.htm
-https://www.epa.gov/epafiles/images/epafiles_misc_exitepadisc.gif,404,https://www.epa.gov/epafiles/images/epafiles_misc_exitepadisc.gif
 https://www.epa.gov/ttn/chief/efpac/fire/access_import.txt,404,https://www.epa.gov/ttn/chief/efpac/fire/access_import.txt
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://www.epa.gov/ttn/chief/net/neip/index.html,404,https://www.epa.gov/ttn/chief/net/neip/index.html
 https://www3.epa.gov/ttnchie1/ert/,403,https://www3.epa.gov/ttnchie1/ert/
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A7710>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
+https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440D6ED0>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://www.epa.gov/ttn/chief/ap42/ch,404,https://www.epa.gov/ttn/chief/ap42/ch
 https://www.epa.gov/ttn/chief/ap42/ch,404,https://www.epa.gov/ttn/chief/ap42/ch
 https://www.epa.gov/ttn/chief/ap42/oldeditions.html,404,https://www.epa.gov/ttn/chief/ap42/oldeditions.html
 https://www.epa.gov/ttn/chief/efpac/procedures/index.html,404,https://www.epa.gov/ttn/chief/efpac/procedures/index.html
 https://www.epa.gov/ttn/chief/efpac/procedures/index.html,404,https://www.epa.gov/ttn/chief/efpac/procedures/index.html
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
 https://www.epa.gov/compliance/data/systems/air/afssystem.html,404,https://www.epa.gov/compliance/data/systems/air/afssystem.html
 https://www.epa.gov/compliance/data/systems/air/afssystem.html,404,https://www.epa.gov/compliance/data/systems/air/afssystem.html
 https://www.epa.gov/ttn/chief/efpac/procedures/index.html,404,https://www.epa.gov/ttn/chief/efpac/procedures/index.html
@@ -577,92 +340,37 @@ https://www.epa.gov/ttn/chief/efpac/procedures/index.html,404,https://www.epa.go
 https://www.epa.gov/ttn/chief/efpac/procedures/index.html,404,https://www.epa.gov/ttn/chief/efpac/procedures/index.html
 https://www.epa.gov/enviro/html/fii/index.html,404,https://www.epa.gov/enviro/html/fii/index.html
 https://www.epa.gov/enviro/html/fii/index.html,404,https://www.epa.gov/enviro/html/fii/index.html
-https://www.epa.gov/ttn/emc/guidlnd/gd-043.pdf,404,https://www.epa.gov/ttn/emc/guidlnd/gd-043.pdf
-https://www.epa.gov/ttn/emc/guidlnd/gd-043.pdf,404,https://www.epa.gov/ttn/emc/guidlnd/gd-043.pdf
 https://www.epa.gov/ttn/chief/ert/index.html.,404,https://www.epa.gov/ttn/chief/ert/index.html.
 https://www.epa.gov/ttnchie1/ert/).,404,https://www.epa.gov/ttnchie1/ert/).
 https://www.epa.gov/ttn/chief/efpac/procedures/index.html),404,https://www.epa.gov/ttn/chief/efpac/procedures/index.html)
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
 https://www.epa.gov/ttn/chief/ert/index.html,404,https://www.epa.gov/ttn/chief/ert/index.html
 https://www.epa.gov/ttn/chief/ert/index.html,404,https://www.epa.gov/ttn/chief/ert/index.html
 https://www.epa.gov/ttn/chief/ert/ert_info.html.,404,https://www.epa.gov/ttn/chief/ert/ert_info.html.
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
 https://www.epa.gov/enviro/html/facility.html,404,https://www.epa.gov/enviro/html/facility.html
 https://www.epa.gov/enviro/html/facility.html,404,https://www.epa.gov/enviro/html/facility.html
 https://www.epa.gov/oecaerth/data/systems/air/afssystem.html,404,https://www.epa.gov/oecaerth/data/systems/air/afssystem.html
 https://www.epa.gov/oecaerth/data/systems/air/afssystem.html,404,https://www.epa.gov/oecaerth/data/systems/air/afssystem.html
 https://www.epa.gov/ttn/chief/eiinformation.html,404,https://www.epa.gov/ttn/chief/eiinformation.html
-https://www.pengoworks.com/qForms/donations/,404,https://www.pengoworks.com/qForms/donations/
-https://www.mm.com/index.cfm,Error,"HTTPSConnectionPool(host=www.mm.com, port=443): Max retries exceeded with url: /index.cfm (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D6035C0>: Failed to resolve www.mm.com ([Errno 11001] getaddrinfo failed)))"
-https://WWW.MM.COM,Error,"HTTPSConnectionPool(host=www.mm.com, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A4470>: Failed to resolve www.mm.com ([Errno 11001] getaddrinfo failed)))"
-https://www.mm.com/index.cfm?userid=1&name=mike+nimer,Error,"HTTPSConnectionPool(host=www.mm.com, port=443): Max retries exceeded with url: /index.cfm?userid=1&name=mike+nimer (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A7800>: Failed to resolve www.mm.com ([Errno 11001] getaddrinfo failed)))"
-https://www.mm.com/index.cfm/userid/1/name/mike+nimer,Error,"HTTPSConnectionPool(host=www.mm.com, port=443): Max retries exceeded with url: /index.cfm/userid/1/name/mike+nimer (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DCB60>: Failed to resolve www.mm.com ([Errno 11001] getaddrinfo failed)))"
-https://a/,Error,"HTTPSConnectionPool(host=a, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5849B0>: Failed to resolve a ([Errno 11001] getaddrinfo failed)))"
-https://github.com/davidstutz/bootstrap-multiselect),404,https://github.com/davidstutz/bootstrap-multiselect)
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A54F0>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://github.com/twbs/bootstrap/blob/master/LICENSE),404,https://github.com/twbs/bootstrap/blob/main/LICENSE)
-https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css,404,https://github.com/h5bp/html5-boilerplate/blob/main/src/css/main.css
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D601040>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://necolas.github.com/normalize.css,404,https://necolas.github.com/normalize.css
-https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc,404,https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc
-https://www.epa.gov/sites/all/themes/epa/img/icons.png),404,https://www.epa.gov/sites/all/themes/epa/img/icons.png)
-https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);
-https://www.epa.gov/sites/all/themes/epa/img/success.png);,404,https://www.epa.gov/sites/all/themes/epa/img/success.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);
-https://www.epa.gov/sites/all/themes/epa/img/warning.png);,404,https://www.epa.gov/sites/all/themes/epa/img/warning.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);
-https://www.epa.gov/sites/all/themes/epa/img/error.png);,404,https://www.epa.gov/sites/all/themes/epa/img/error.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);
-https://www.epa.gov/sites/all/themes/epa/img/info.png);,404,https://www.epa.gov/sites/all/themes/epa/img/info.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);
-https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);,404,https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);
-https://datatables.net/tn/,404,https://datatables.net/tn/
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://www.epa.gov/newsroom/rssfeeds.htm,404,https://www.epa.gov/newsroom/rssfeeds.htm
 https://www.epa.gov/epahome/podcasts.htm,404,https://www.epa.gov/epahome/podcasts.htm
-https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DD670>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BE5A0>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsroom/email_signups.htm,404,https://www.epa.gov/newsroom/email_signups.htm
 https://www.epa.gov/epahome/usenotice.htm,404,https://www.epa.gov/epahome/usenotice.htm
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
-https://www.epa.gov/epafiles/js/third-party/jquery.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.js
-https://www.epa.gov/epafiles/js/epa-core-v4.js,404,https://www.epa.gov/epafiles/js/epa-core-v4.js
-https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js
 https://www.epa.gov/aboutepa/administrator-gina-mccarthy,404,https://www.epa.gov/aboutepa/administrator-gina-mccarthy
 https://twitter.com/epa,403,https://twitter.com/epa
 https://www.epa.gov/aboutepa/greenversations,404,https://www.epa.gov/home/greenversations
 https://developer.epa.gov/category/apps/,404,https://www.epa.gov/developers/category/apps/
 https://developer.epa.gov/category/widgets/,404,https://www.epa.gov/developers/category/widgets/
 https://twitter.com/epa,403,https://twitter.com/epa
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A4230>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
-https://www.epa.gov/epafiles/templates/webcms/css/local.css,404,https://www.epa.gov/epafiles/templates/webcms/css/local.css
-https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif,404,https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/epahome/quickfinder.htm,404,https://www.epa.gov/epahome/quickfinder.htm
 https://www.epa.gov/search.html,404,https://www.epa.gov/search.html
@@ -670,93 +378,38 @@ https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/ch
 https://www.epa.gov/newsreleases/search/rss,404,https://www.epa.gov/newsreleases/search/rss
 https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters,410,https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://bugs.jquery.com/ticket/9413),404,https://bugs.jquery.com/ticket/9413)
-https://www.robertpenner.com/easing),Error,"HTTPSConnectionPool(host=www.robertpenner.com, port=443): Max retries exceeded with url: /easing) (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.robertpenner.com. (_ssl.c:1000))))"
-https://datatables.net/tn/,404,https://datatables.net/tn/
-https://plugins.jquery.com/project/once,404,https://plugins.jquery.com/project/once
-https://twitter.com/intent/tweet?original_referer=,403,https://twitter.com/intent/tweet?original_referer=
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DDE50>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DE480>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
-https://github.com/davidstutz/bootstrap-multiselect),404,https://github.com/davidstutz/bootstrap-multiselect)
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16DF10>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://github.com/twbs/bootstrap/blob/master/LICENSE),404,https://github.com/twbs/bootstrap/blob/main/LICENSE)
-https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css,404,https://github.com/h5bp/html5-boilerplate/blob/main/src/css/main.css
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DD0D0>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://necolas.github.com/normalize.css,404,https://necolas.github.com/normalize.css
-https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc,404,https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc
-https://www.epa.gov/sites/all/themes/epa/img/icons.png),404,https://www.epa.gov/sites/all/themes/epa/img/icons.png)
-https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);
-https://www.epa.gov/sites/all/themes/epa/img/success.png);,404,https://www.epa.gov/sites/all/themes/epa/img/success.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);
-https://www.epa.gov/sites/all/themes/epa/img/warning.png);,404,https://www.epa.gov/sites/all/themes/epa/img/warning.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);
-https://www.epa.gov/sites/all/themes/epa/img/error.png);,404,https://www.epa.gov/sites/all/themes/epa/img/error.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);
-https://www.epa.gov/sites/all/themes/epa/img/info.png);,404,https://www.epa.gov/sites/all/themes/epa/img/info.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);
-https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);,404,https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);
-https://datatables.net/tn/,404,https://datatables.net/tn/
 https://www.epa.gov/aboutepa/administrator-gina-mccarthy,404,https://www.epa.gov/aboutepa/administrator-gina-mccarthy
 https://twitter.com/epa,403,https://twitter.com/epa
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D602450>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://bugs.jquery.com/ticket/9413),404,https://bugs.jquery.com/ticket/9413)
-https://www.robertpenner.com/easing),Error,"HTTPSConnectionPool(host=www.robertpenner.com, port=443): Max retries exceeded with url: /easing) (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.robertpenner.com. (_ssl.c:1000))))"
-https://datatables.net/tn/,404,https://datatables.net/tn/
-https://plugins.jquery.com/project/once,404,https://plugins.jquery.com/project/once
-https://twitter.com/intent/tweet?original_referer=,403,https://twitter.com/intent/tweet?original_referer=
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5CF9B0>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D520>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16C860>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DE0C0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D610170>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D612060>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D6024E0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5CEB70>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D040>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16F9E0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16FA40>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D5B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5A66C0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16F860>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D640>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16F2C0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5CD340>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D602570>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D5DEA50>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
-https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D602090>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440D4D10>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410A330>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410A210>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410A7E0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410AFC0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BF350>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E6840>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410A870>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D044108590>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410B0B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410B9B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E56D0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BF350>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440883B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410B3B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0441098E0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/).,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: /). (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410AA80>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
+https://www.fusebox.org/,Error,"HTTPSConnectionPool(host=www.fusebox.org, port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E03B0>, Connection to www.fusebox.org timed out. (connect timeout=5)))"
 https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
-https://www.epa.gov/epafiles/s/epa.css,404,https://www.epa.gov/epafiles/s/epa.css
-https://www.epa.gov/epafiles/s/ie.css,404,https://www.epa.gov/epafiles/s/ie.css
-https://www.epa.gov/epafiles/s/print.css,404,https://www.epa.gov/epafiles/s/print.css
-https://www.epa.gov/epafiles/js/epa-core.js,404,https://www.epa.gov/epafiles/js/epa-core.js
-https://www.epa.gov/epafiles/images/logo_epaseal.gif,404,https://www.epa.gov/epafiles/images/logo_epaseal.gif
-https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D6D0>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440D5790>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
@@ -776,8 +429,6 @@ https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/ch
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/aboutepa/administrator-gina-mccarthy,404,https://www.epa.gov/aboutepa/administrator-gina-mccarthy
 https://twitter.com/epa,403,https://twitter.com/epa
@@ -785,12 +436,7 @@ https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie7.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie7.css
-https://www.epa.gov/epafiles/templates/webcms/css/ie6.css,404,https://www.epa.gov/epafiles/templates/webcms/css/ie6.css
-https://www.epa.gov/epafiles/templates/webcms/css/local.css,404,https://www.epa.gov/epafiles/templates/webcms/css/local.css
-https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif,404,https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif
-https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16EB40>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://nlquery.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=nlquery.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D04410AC90>: Failed to resolve nlquery.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/epahome/quickfinder.htm,404,https://www.epa.gov/epahome/quickfinder.htm
 https://www.epa.gov/search.html,404,https://www.epa.gov/search.html
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
@@ -810,58 +456,20 @@ https://www.epa.gov/ttn/chief/efpac/esttools.html,404,https://www.epa.gov/ttn/ch
 https://www.epa.gov/ttn/chief/database/search.html,404,https://www.epa.gov/ttn/chief/database/search.html
 https://www.epa.gov/newsroom/rssfeeds.htm,404,https://www.epa.gov/newsroom/rssfeeds.htm
 https://www.epa.gov/epahome/podcasts.htm,404,https://www.epa.gov/epahome/podcasts.htm
-https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E179A30>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E29C0>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsroom/email_signups.htm,404,https://www.epa.gov/newsroom/email_signups.htm
 https://www.epa.gov/epahome/usenotice.htm,404,https://www.epa.gov/epahome/usenotice.htm
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
-https://www.epa.gov/epafiles/js/third-party/jquery.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.js
-https://www.epa.gov/epafiles/js/epa-core-v4.js,404,https://www.epa.gov/epafiles/js/epa-core-v4.js
-https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js
-https://github.com/davidstutz/bootstrap-multiselect),404,https://github.com/davidstutz/bootstrap-multiselect)
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E17B380>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://github.com/twbs/bootstrap/blob/master/LICENSE),404,https://github.com/twbs/bootstrap/blob/main/LICENSE)
-https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css,404,https://github.com/h5bp/html5-boilerplate/blob/main/src/css/main.css
-https://getbootstrap.com),Error,"HTTPSConnectionPool(host=getbootstrap.com), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D601DF0>: Failed to resolve getbootstrap.com) ([Errno 11001] getaddrinfo failed)))"
-https://necolas.github.com/normalize.css,404,https://necolas.github.com/normalize.css
-https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc,404,https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc
-https://www.epa.gov/sites/all/themes/epa/img/icons.png),404,https://www.epa.gov/sites/all/themes/epa/img/icons.png)
-https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/pagetop.svg);
-https://www.epa.gov/sites/all/themes/epa/img/success.png);,404,https://www.epa.gov/sites/all/themes/epa/img/success.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/success.svg);
-https://www.epa.gov/sites/all/themes/epa/img/warning.png);,404,https://www.epa.gov/sites/all/themes/epa/img/warning.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning.svg);
-https://www.epa.gov/sites/all/themes/epa/img/error.png);,404,https://www.epa.gov/sites/all/themes/epa/img/error.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/error.svg);
-https://www.epa.gov/sites/all/themes/epa/img/info.png);,404,https://www.epa.gov/sites/all/themes/epa/img/info.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/info.svg);
-https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);,404,https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);
-https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa-logo.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Facebook.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Flickr.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Instagram.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_Twitter.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg),404,https://www.epa.gov/sites/all/themes/epa/img/svg/epa_icons_YouTube.svg)
-https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/plus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/minus.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss-white.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/box-blog.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/rss.svg);
-https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);,404,https://www.epa.gov/sites/all/themes/epa/img/svg/warning-white.svg);
-https://datatables.net/tn/,404,https://datatables.net/tn/
 https://www.epa.gov/oar/oaqps/,404,https://www.epa.gov/oar/oaqps/
 https://www.epa.gov/ttn/,404,https://www.epa.gov/node/157175
 https://www.epa.gov/ttn/chief/,404,https://www.epa.gov/ttn/chief/
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://www.epa.gov/newsroom/rssfeeds.htm,404,https://www.epa.gov/newsroom/rssfeeds.htm
 https://www.epa.gov/epahome/podcasts.htm,404,https://www.epa.gov/epahome/podcasts.htm
-https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E17A540>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
+https://m.epa.gov/,Error,"HTTPSConnectionPool(host=m.epa.gov, port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E3BC0>: Failed to resolve m.epa.gov ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsroom/email_signups.htm,404,https://www.epa.gov/newsroom/email_signups.htm
 https://www.epa.gov/epahome/usenotice.htm,404,https://www.epa.gov/epahome/usenotice.htm
 https://www.epa.gov/ttn/chief/efpac/comments.html,404,https://www.epa.gov/ttn/chief/efpac/comments.html
-https://www.epa.gov/epafiles/js/third-party/jquery.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.js
-https://www.epa.gov/epafiles/js/epa-core-v4.js,404,https://www.epa.gov/epafiles/js/epa-core-v4.js
-https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js,404,https://www.epa.gov/epafiles/js/third-party/jquery.colorbox.min.js
 https://www.epa.gov/aboutepa/administrator-gina-mccarthy,404,https://www.epa.gov/aboutepa/administrator-gina-mccarthy
 https://twitter.com/epa,403,https://twitter.com/epa
 https://www.epa.gov/aboutepa/greenversations,404,https://www.epa.gov/home/greenversations
@@ -870,13 +478,10 @@ https://developer.epa.gov/category/widgets/,404,https://www.epa.gov/developers/c
 https://twitter.com/epa,403,https://twitter.com/epa
 https://www.epa.gov/aboutepa/administrator-gina-mccarthy,404,https://www.epa.gov/aboutepa/administrator-gina-mccarthy
 https://twitter.com/epa,403,https://twitter.com/epa
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E17AC90>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://www.epa.gov/labels.rdf,404,https://www.epa.gov/labels.rdf
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/epafiles/templates/webcms/css/epa.css,404,https://www.epa.gov/epafiles/templates/webcms/css/epa.css
-https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif,404,https://www.epa.gov/epafiles/templates/webcms/css/i/print-epa-logo.gif
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/epahome/quickfinder.htm,404,https://www.epa.gov/epahome/quickfinder.htm
 https://www.epa.gov/search.html,404,https://www.epa.gov/search.html
@@ -886,40 +491,31 @@ https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index
 https://www.epa.gov/ttn/chief/ap42/index.html,404,https://www.epa.gov/ttn/chief/ap42/index.html
 https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/webfire/index.html
 https://cfpub.epa.gov/webfire/,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/ (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E17A930>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
+https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001D044108FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
 https://ogp.me/ns#,404,https://ogp.me/ns/
 https://rdfs.org/sioc/ns#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/ns (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
 https://rdfs.org/sioc/types#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/types (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
-https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E192090>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
-https://www.epa.gov/sites/production/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css,403,https://www.epa.gov/sites/default/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css
-https://www.epa.gov/sites/production/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css,403,https://www.epa.gov/sites/default/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css
+https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BF290>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsreleases/search/rss,404,https://www.epa.gov/newsreleases/search/rss
 https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters,410,https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E193830>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
+https://xmlns.com/foaf/0.1/,Error,"HTTPSConnectionPool(host=xmlns.com, port=443): Max retries exceeded with url: /foaf/0.1/ (Caused by NewConnectionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BC9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it))"
 https://ogp.me/ns#,404,https://ogp.me/ns/
 https://rdfs.org/sioc/ns#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/ns (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
 https://rdfs.org/sioc/types#,Error,"HTTPSConnectionPool(host=rdfs.org, port=443): Max retries exceeded with url: /sioc/types (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: EE certificate key too weak (_ssl.c:1000))))"
-https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E179FA0>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
-https://www.epa.gov/sites/production/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css,403,https://www.epa.gov/sites/default/files/css/css_H7Qs31C_4pOAKdUe1sAA01nOyZTqO_KOIt1uDr0iKB4.css
-https://www.epa.gov/sites/production/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css,403,https://www.epa.gov/sites/default/files/css/css_68w49Vk1SYPj8EPx2iW8fUagDJ4xc2WJQO7Dn7aLNaU.css
+https://drupal.org),Error,"HTTPSConnectionPool(host=drupal.org), port=443): Max retries exceeded with url: / (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BE810>: Failed to resolve drupal.org) ([Errno 11001] getaddrinfo failed)))"
 https://www.epa.gov/newsreleases/search/rss,404,https://www.epa.gov/newsreleases/search/rss
 https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters,410,https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/newsreleases/search/rss,404,https://www.epa.gov/newsreleases/search/rss
 https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters,410,https://www.epa.gov/newsreleases/search/rss/field_press_office/headquarters
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
@@ -928,8 +524,6 @@ https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/w
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://www.epa.gov/ttn/index.html,404,https://www.epa.gov/ttn/index.html
 https://www.epa.gov/ttn/chief/index.html,404,https://www.epa.gov/ttn/chief/index.html
@@ -938,16 +532,7 @@ https://epa.gov/ttn/chief/webfire/index.html,404,https://www.epa.gov/ttn/chief/w
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://bugs.jquery.com/ticket/9413),404,https://bugs.jquery.com/ticket/9413)
-https://www.robertpenner.com/easing),Error,"HTTPSConnectionPool(host=www.robertpenner.com, port=443): Max retries exceeded with url: /easing) (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.robertpenner.com. (_ssl.c:1000))))"
-https://datatables.net/tn/,404,https://datatables.net/tn/
-https://plugins.jquery.com/project/once,404,https://plugins.jquery.com/project/once
-https://twitter.com/intent/tweet?original_referer=,403,https://twitter.com/intent/tweet?original_referer=
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10D600680>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16E6C0>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
@@ -955,26 +540,18 @@ https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host s
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
 https://www3.epa.gov/ttnchie1/ert/,403,https://www3.epa.gov/ttnchie1/ert/
 https://#cgi.server_name#,Error,Invalid URL https://#cgi.server_name#: No host supplied
-https://appdev6.erg.com:80/2512webfire/web/reports/download/C:\Apache2.2\dev\2512webfire\web\reports\\download/WebFIRE-BULK-XML-DATA.zip,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=80): Max retries exceeded with url: /2512webfire/web/reports/download/C:%5CApache2.2%5Cdev%5C2512webfire%5Cweb%5Creports%5C%5Cdownload/WebFIRE-BULK-XML-DATA.zip (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16D940>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
-https://appdev6.erg.com/2512webfire/web/reports/,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/reports/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E1792E0>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
-https://webfire-qa.oaqpscloud.com/2512webfire/web/reports/clean-up-download.cfm,Error,"HTTPSConnectionPool(host=webfire-qa.oaqpscloud.com, port=443): Max retries exceeded with url: /2512webfire/web/reports/clean-up-download.cfm (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10D610770>, Connection to webfire-qa.oaqpscloud.com timed out. (connect timeout=5)))"
+https://appdev6.erg.com:80/2512webfire/web/reports/download/C:\Apache2.2\dev\2512webfire\web\reports\\download/WebFIRE-BULK-XML-DATA.zip,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=80): Max retries exceeded with url: /2512webfire/web/reports/download/C:%5CApache2.2%5Cdev%5C2512webfire%5Cweb%5Creports%5C%5Cdownload/WebFIRE-BULK-XML-DATA.zip (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D04410BDA0>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
+https://appdev6.erg.com/2512webfire/web/reports/,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/reports/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440E4B00>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
+https://webfire-qa.oaqpscloud.com/2512webfire/web/reports/clean-up-download.cfm,Error,"HTTPSConnectionPool(host=webfire-qa.oaqpscloud.com, port=443): Max retries exceeded with url: /2512webfire/web/reports/clean-up-download.cfm (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D0440BCC80>, Connection to webfire-qa.oaqpscloud.com timed out. (connect timeout=5)))"
 https://#cgi.server_name#/webfire/reports/clean-up-download.cfm,Error,Invalid URL https://#cgi.server_name#/webfire/reports/clean-up-download.cfm: No host supplied
-https://datatables.net/tn/,404,https://datatables.net/tn/
 https://www.epa.gov/aboutepa/greenversations,404,https://www.epa.gov/home/greenversations
 https://developer.epa.gov/category/apps/,404,https://www.epa.gov/developers/category/apps/
 https://developer.epa.gov/category/widgets/,404,https://www.epa.gov/developers/category/widgets/
 https://twitter.com/epa,403,https://twitter.com/epa
-https://appdev6.erg.com/2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID=,Error,"HTTPSConnectionPool(host=appdev6.erg.com, port=443): Max retries exceeded with url: /2512webfire/web/FIRE/view/dspERTDocumentDownload.cfm?Submission_ID= (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16CFB0>, Connection to appdev6.erg.com timed out. (connect timeout=5)))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSRecentNews,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSRecentNews (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://yosemite.epa.gov/opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters,Error,"HTTPSConnectionPool(host=yosemite.epa.gov, port=443): Max retries exceeded with url: /opa/admpress.nsf/RSSByLocation?open&amp;location=Headquarters (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://blog.epa.gov/blog/feed/,404,https://www.epa.gov/perspectives/blog/feed/
-https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js,404,https://www.epa.gov/sites/all/modules/custom/epa_core/js/alert.js
-https://www.epa.gov/sites/all/themes/epa/logo.png,404,https://www.epa.gov/sites/all/themes/epa/logo.png
 https://search.epa.gov/epasearch/epasearch,Error,"HTTPSConnectionPool(host=search.epa.gov, port=443): Max retries exceeded with url: /epasearch/epasearch (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
-https://bugs.jquery.com/ticket/9413),404,https://bugs.jquery.com/ticket/9413)
-https://www.robertpenner.com/easing),Error,"HTTPSConnectionPool(host=www.robertpenner.com, port=443): Max retries exceeded with url: /easing) (Caused by SSLError(SSLCertVerificationError(1, [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for www.robertpenner.com. (_ssl.c:1000))))"
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E16E660>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
-https://www.erichynds.com/jquery/jquery-ui-multiselect-widget/,Error,"HTTPSConnectionPool(host=www.erichynds.com, port=443): Max retries exceeded with url: /jquery/jquery-ui-multiselect-widget/ (Caused by NameResolutionError(<urllib3.connection.HTTPSConnection object at 0x000001E10E1C00B0>: Failed to resolve www.erichynds.com ([Errno 11001] getaddrinfo failed)))"
 https://cfpub.epa.gov/webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID= (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"
 https://#CGI.SERVER_NAME#/WebFire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=,Error,Invalid URL https://#CGI.SERVER_NAME#/WebFire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=: No host supplied
 https://cfpub.epa.gov/webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID=,Error,"HTTPSConnectionPool(host=cfpub.epa.gov, port=443): Max retries exceeded with url: /webfire/FIRE/view/dspERTDocumentDetailsBySubmissionID.cfm?ID= (Caused by SSLError(SSLError(1, [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1000))))"

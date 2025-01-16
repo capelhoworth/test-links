@@ -4,6 +4,12 @@ import os
 
 def extract_links(input_files, output_csv):
     urls = []
+
+    # Check if output file exists and delete it
+    for file in [output_csv]:
+        if os.path.exists(file):
+            print(f"Removing existing {file}")
+            os.remove(file)
    
     # First time writing to CSV - create with header
     with open(output_csv, 'w', newline='') as out_file:
@@ -12,6 +18,16 @@ def extract_links(input_files, output_csv):
    
     # Process each input file
     for input_file in input_files:
+        # Skip certain files
+        if input_file.strip().lower().endswith(('.css', '.js',
+                                                '.jpg', '.jpeg', '.png', '.gif', '.svg', '.ico', '.webp',
+                                                '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+                                                '.mp3', '.wav', '.mp4', '.avi', '.mov', '.webm',
+                                                '.ttf', '.woff', '.woff2', '.eot',
+                                                '.xml', '.json')):
+            print(f"Skipping file: {input_file} (undesired file type)")
+            continue
+
         try:
             # Read the file content
             with open(input_file.strip(), 'r', encoding='utf-8') as file:
@@ -23,15 +39,23 @@ def extract_links(input_files, output_csv):
             matches = re.findall(url_pattern, content)
             print(f"Number of matches found in {input_file}: {len(matches)}") 
 
+            # Skip URLs that are undesired files
+            filtered_matches = [url for url in matches if not url.lower().endswith(('.css', '.js',
+                                                                                    '.jpg', '.jpeg', '.png', '.gif', '.svg', '.ico', '.webp',
+                                                                                    '.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx',
+                                                                                    '.mp3', '.wav', '.mp4', '.avi', '.mov', '.webm',
+                                                                                    '.ttf', '.woff', '.woff2', '.eot',
+                                                                                    '.xml', '.json'))]
+
             #Append URLs to CSV
-            if len(matches) > 0:
+            if filtered_matches:
                 with open(output_csv, 'a', newline='') as out_file:
                     writer = csv.writer(out_file)
-                    for url in matches:
+                    for url in filtered_matches:
                         writer.writerow([input_file.strip(), url])
                         urls.append(url)
 
-            print(f"Extracted {len(matches)} URLs from {input_file}")
+            print(f"Extracted {len(filtered_matches)} URLs from {input_file}")
             print("-" * 50)
            
         except Exception as e:

@@ -1,9 +1,16 @@
 import requests
 import csv
+import os
 
 def test_links(input_csv, working_csv, error_csv):
     working_results = []
     error_results = []
+
+    # Check if output files exist and delete them if so
+    for file in [working_csv, error_csv]:
+        if os.path.exists(file):
+            print(f"Removing existing file: (file)")
+            os.remove(file)
     
     # Open the links.csv and read the links
     with open(input_csv, 'r') as file:
