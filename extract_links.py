@@ -35,7 +35,7 @@ def extract_links(input_files, output_csv):
                 print(f"Reading file: {input_file}")
                
             # Use regex to find all links
-            url_pattern = r'https://[^\s<>"\'\{\}\[\]`]+(?:\.[^\s<>"\'\{\}\[\]`]+)*'
+            url_pattern = r'(?:http|https)://[^\s<>"\'\{\}\[\]`]+(?:\.[^\s<>"\'\{\}\[\]`]+)*'
             matches = re.findall(url_pattern, content)
             print(f"Number of matches found in {input_file}: {len(matches)}") 
 
