@@ -4,7 +4,7 @@ https://sor-scc-api.epa.gov/sccwebservices/sccsearch/,200,https://sor-scc-api.ep
 https://sor-scc-api.epa.gov/sccwebservices/sccsearch/,200,https://sor-scc-api.epa.gov/sccwebservices/sccsearch/
 https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd,200,https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
 https://www.w3.org/1999/xhtml,200,https://www.w3.org/1999/xhtml/
-https://ofmpub.epa.gov/sccwebservices/v1/SCC?format=CSV&filename=mySCC.csv,200,https://sor-scc-api.epa.gov/sccwebservices/v1/SCC?format=CSV&filename=mySCC.csv
+https://ofmpub.epa.gov/sccwebservices/v1/SCC?format=CSV&filename=mySCC.csv,200,https://ofmpub.epa.gov/sccwebservices/v1/SCC?format=CSV&filename=mySCC.csv
 https://www.epa.gov/learn-issues,200,https://www.epa.gov/environmental-topics
 https://www.epa.gov/science-and-technology,200,https://www.epa.gov/environmental-topics
 https://www.epa.gov/laws-regulations,200,https://www.epa.gov/laws-regulations
@@ -48,6 +48,7 @@ https://www.epa.gov/,200,https://www.epa.gov/
 https://www.epa.gov/epafiles/usenotice.htm,200,https://www.epa.gov/privacy/privacy-and-security-notice
 https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd,200,https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
 https://www.w3.org/1999/xhtml,200,https://www.w3.org/1999/xhtml/
+https://purl.org/dc/elements/1.1/,200,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
 https://www.epa.gov/,200,https://www.epa.gov/
 https://www.epa.gov/,200,https://www.epa.gov/
 https://webbook.nist.gov/chemistry/,200,https://webbook.nist.gov/chemistry/
@@ -307,7 +308,7 @@ https://www.epa.gov/,200,https://www.epa.gov/
 https://www.epa.gov/air-emissions-factors-and-quantification,200,https://www.epa.gov/air-emissions-factors-and-quantification
 https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors,200,https://www.epa.gov/air-emissions-factors-and-quantification/ap-42-compilation-air-emissions-factors-stationary-sources
 https://www.epa.gov/electronic-reporting-air-emissions/webfire,200,https://www.epa.gov/electronic-reporting-air-emissions/webfire
-https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/termsandacronyms/search.do,200,https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/termsandacronyms/search.do
+https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/termsandacronyms/search.do,200,https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/termsandacronyms/search.do
 https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd,200,https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd
 https://www.w3.org/1999/xhtml,200,https://www.w3.org/1999/xhtml/
 https://purl.org/dc/elements/1.1/,200,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
