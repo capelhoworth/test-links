@@ -36,7 +36,7 @@ def extract_links(input_files, output_csv):
                
             # Use regex to find all links
             url_pattern = r'(?:http|https)://[^\s<>"\'\{\}\[\]`]+(?:\.[^\s<>"\'\{\}\[\]`]+)*'
-            matches = re.findall(url_pattern, content)
+            matches = re.findall(url_pattern, content, re.I)
             print(f"Number of matches found in {input_file}: {len(matches)}") 
 
             # Skip URLs that are undesired files
