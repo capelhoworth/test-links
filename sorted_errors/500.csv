@@ -1,2 +1,0 @@
-URL,Status Code,Final URL/Error Message
-https://ofmpub.epa.gov/sccwebservices/v1/SCC?format=CSV&sortFacet=1&filename=SCCDownload,500,https://sor-scc-api.epa.gov/sccwebservices/v1/SCC?format=CSV&sortFacet=1&filename=SCCDownload

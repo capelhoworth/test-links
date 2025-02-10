@@ -3,6 +3,8 @@ import re
 import requests
 import csv
 import time
+from collections import defaultdict
+import shutil
 
 # Define a list of file extensions that should be ignored
 ignored_extensions = [
@@ -164,7 +166,6 @@ def main():
     print(f"Processing complete. Execution time: {execution_time} seconds.")
     print(f"Total files processed: {total_count}")
     print(f"Files failed to process: {fail_count}")
-
 
 if __name__ == '__main__':
     main()
