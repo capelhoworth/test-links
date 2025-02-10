@@ -1,0 +1,6 @@
+http://xmlns.com/foaf/0.1/
+http://rdfs.org/sioc/ns#
+http://rdfs.org/sioc/types#
+http://xmlns.com/foaf/0.1/
+http://rdfs.org/sioc/ns#
+http://rdfs.org/sioc/types#

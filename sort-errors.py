@@ -3,48 +3,43 @@ import os
 import shutil
 from collections import defaultdict
 
-def sort_error_links(input_file='error-links.csv'):
+def sort_links(input_file='tested_links.csv'):
     
     # Create or clean output directory
-    output_dir = 'sorted_errors'
+    output_dir = 'sorted_links_by_status'
     if os.path.exists(output_dir):
-        print(f"Cleaning up existing output directory: {output_dir}")
         shutil.rmtree(output_dir)
-
     os.makedirs(output_dir)
     print(f"Created output directory: {output_dir}")
     
     # Dictionary to store rows by status code
-    error_groups = defaultdict(list)
+    status_groups = defaultdict(list)
     
     # Read the input CSV file
     with open(input_file, 'r', newline='', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.reader(csvfile)
         
         # Group rows by status code
         for row in reader:
-            status_code = row['Status Code'].strip()
+            link, status_code = row
             
-            # Handle different types of status codes. Numeric and non-numeric.
-            if status_code.isdigit():
-                output_file = f'{status_code}.csv'
-            else:
-                output_file = 'error.csv'
-            
-            error_groups[output_file].append(row)
+            # Ensure status code is a string
+            status_code = str(status_code).strip()
+           
+            # Group links by status code
+            status_groups[status_code].append(link)
     
-    # Write grouped rows to separate CSV files
-    fieldnames = ['URL', 'Status Code', 'Final URL/Error Message']
+   # Write grouped links to separate text files
+    for status_code, links in status_groups.items():
+        output_path = os.path.join(output_dir, f'status_{status_code}_links.txt')
     
-    for output_file, rows in error_groups.items():
-        output_path = os.path.join(output_dir, output_file)
         
-        with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(rows)
-        
-        print(f'Created {output_path} with {len(rows)} entries')
+        with open(output_path, 'w', encoding='utf-8') as linkfile:
+            for link in links:
+                linkfile.write(f"{link}\n")
+       
+        print(f'Created {output_path} with {len(links)} links')
 
 # Directly call the function when the script runs
-sort_error_links()
+if __name__ == '__main__':
+    sort_links()
