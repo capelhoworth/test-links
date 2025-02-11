@@ -13,7 +13,7 @@ ignored_extensions = [
     '.mov', '.webm', '.ttf', '.woff', '.woff2', '.eot', '.xml', '.json', '.zip', '.scc'
 ]
 
-# Function to clean up the error.csv fiel if it exists
+# Function to clean up the error.csv file if it exists
 def cleanup_error_file():
     for file_name in ['error.csv', 'tested_links.csv', 'changed_links.csv', 'failed_changed_links.csv']:
         if os.path.exists(file_name):
