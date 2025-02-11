@@ -47,7 +47,7 @@ def update_http_links_in_file(file_path):
                 # Record the HTTP link and response in the tested_links.csv
                 record_tested_link(link, http_status)
 
-                # Convert HTTP to HTTPS and test again
+                # # Convert HTTP to HTTPS and test again
                 https_link = link.replace("http://", "https://")
                 response_https = requests.get(https_link)
                 https_status = response_https.status_code
@@ -67,9 +67,9 @@ def update_http_links_in_file(file_path):
                 track_error(file_path, link, None, f"Error testing link {link}: {str(e)}")
 
         # Save changes to the file if links were updated
-        if links_updated:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(file_content)
+        # if links_updated:
+        #     with open(file_path, 'w', encoding='utf-8') as f:
+        #         f.write(file_content)
 
         return True
 
